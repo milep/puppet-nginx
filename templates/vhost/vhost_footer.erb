@@ -1,1 +1,7 @@
+  location ~ ^/(assets)/ {
+    root <%= server_root %>;
+    #gzip_static on; # to serve pre-gzipped version
+    expires max;
+    #add_header  Cache-Control public;
+  }
 }
