@@ -1,3 +1,5 @@
+https://github.com/puppetlabs/puppetlabs-nginx used as starting point, modified to work with vagrant and unicorn.
+
 # NGINX Module
 
 James Fryman <jamison@puppetlabs.com>
